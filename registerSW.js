@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Fishing-in-HU/sw.js', { scope: '/Fishing-in-HU/' })})}
